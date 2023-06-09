@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(226, 43%, 10%);
+}
+.caixa1{
+
+    margin-left: 1rem;
+    background-color: hsl(246, 80%, 60%);
+    height: 350px;
+    width: 280px;
+    border-radius: 10px;
+}
+.daily{
+    gap: .1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    background-color: hsl(235, 46%, 20%);
+    height: 200px;
+    width: 280px;
+    border-radius: 10px;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+.box-work{
+    
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 200px;
+    width: 300px;
+}
+
+.head{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(15, 100%, 70%);
+}
+.icon-work{
+    padding-right: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+.img-work{
+    width: 50px;
+    width: 50px;
+}
+.work-title{
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+.report{
+    margin: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.jeremy{
+    border: 3px white solid;
+    margin: 1rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.reporter{
+   font-family:sans-serif;
+    font-weight: 100;
+   margin-left: 2rem;
+        color: white;
+        font-size: 40px;
+}
+h4{
+    font-weight: 100;
+    margin: 1rem;
+    color: hsl(235, 45%, 61%);
+    font-size: 20px;
+
+}
+h3{
+    font-weight: 100;
+    margin: 1rem;
+    font-size: 20px;
+    color: white;
+}
+.hours{
+    margin-left: 2rem;
+    font-family:sans-serif;
+    font-weight: 100;
+        color: white;
+        font-size: 60px;
+}
+.prev-hours{
+    margin-left: 2rem;
+    font-family:sans-serif;
+    font-weight: 100;
+    color: hsl(235, 45%, 61%);
+        font-size: 20px;
+}
+.more{
+
+color: white;
+font-weight: bold;
+padding: 1rem;
+margin-left: 10rem;
+}
+.caixas{
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+.fileira1, .fileira2{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem;
+    margin-bottom: 12rem;
+    gap: 30px;
+
+}
+.head-play{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(195, 74%, 62%);
+
+}
+
+.head-study{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(348, 100%, 68%);
+}
+.head-exercise{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(145, 58%, 55%);
+}
+.head-social{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(264, 64%, 52%);
+}
+.head-selfcare{
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: hsl(43, 84%, 65%);
+}
+.img-social{
+    height: 50px;
+}
+.img-exercise{
+    height: 50px;
+}
+.more1{
+    margin-left: 10rem;
+    color: white;
+}
+.attribution{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
